@@ -25,7 +25,8 @@ function App() {
       <BreakLength direction={"Session-down"} />
       <TimerSession  /> 
       <PausePlay pauseOrPlay={"pause"}/>  
-      <PausePlay pauseOrPlay={"play"}/>  
+      <PausePlay pauseOrPlay={"play"}/> 
+      <PausePlay pauseOrPlay={"restart"}/>  
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import updatedirectionAction from './clockAction';
+import {updatedirectionAction} from './clockAction';
 
 const BreakLength = ({ direction }: IBreakLengthType) => {
     const dispatch = useDispatch();
